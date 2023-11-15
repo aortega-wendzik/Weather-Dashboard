@@ -1,0 +1,54 @@
+.heading {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(9,9,121,0.5943627450980392) 75%, rgba(0,212,255,1) 100%);
+padding: 10px;
+  }
+  
+  .heading h1 {
+    color: #F0F8FF;
+    text-align: center;
+    margin: 0;
+}
+
+.heading {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(9,9,121,0.5943627450980392) 75%, rgba(0,212,255,1) 100%);
+  padding: 10px;
+    }
+    
+    .heading h1 {
+      color: #F0F8FF;
+      text-align: center;
+      margin: 0;
+  }
+  
+  #weather-info {
+    display: flex; /* This makes the child elements align in a row */
+    justify-content: space-evenly; /* This adds equal space between and around the child elements */
+    align-items: center; /* This vertically centers the child elements */
+  }
+  
+  .city-div {
+    width: 18%; /* This sets a fixed width for each cityDiv element */
+    text-align: center; /* This centers the text inside each cityDiv element */
+  }
+  
+#Seville-div {
+  background-color: lightblue;
+}
+
+#New York-div {
+  background-color: lightgreen;
+}
+
+#Tokyo-div {
+  background-color: lightpink;
+}
+
+#Sydney-div {
+  background-color: lightyellow;
+}
+
+#London-div {
+  background-color: lightgray;
+}
